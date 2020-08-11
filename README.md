@@ -2,6 +2,8 @@
 
 ## Tinder-Clone
 
+#preview :-
+[https://tinder-clone-c9c7a.web.app/]
 
 
 ### `npm start`
