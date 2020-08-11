@@ -1,0 +1,78 @@
+
+
+.card{
+position: relative;
+width: 600px;
+height: 50vh;
+padding:60px;
+max-width: 85vw;
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(0,227,235,1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,227,235,1);
+box-shadow: 0px 0px 10px 0px rgba(0,227,235,1);
+}
+
+.TinderCard__Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+
+}
+
+.card > h3{
+    position: absolute;
+   bottom: 3px;
+   color: white;
+   font-weight: 900;
+}
+
+
+.swipe{
+    position: absolute;
+}
+
+/* swipe button page css */
+.swipbutton{
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.swipbutton .MuiIconButton-root{
+    background-color: #f9f7d9;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75)
+}
+
+
+.swipbutton__repeat{
+    padding: 2vw!important;
+    color: greenyellow !important;
+
+}
+.swipbutton__left{
+    padding: 2vw!important;
+    color: red !important;
+
+}
+.swipbutton__star{
+    padding: 2vw!important;
+    color: skyblue !important;
+
+}
+.swipbutton__right{
+    padding: 2vw!important;
+    color: #f09ae9 !important;
+
+}
+.swipbutton__lightining{
+    padding: 2vw!important;
+    color: goldenrod !important;
+
+}

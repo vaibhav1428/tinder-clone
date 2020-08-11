@@ -1,0 +1,99 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.header__logo{
+    height: 35px;
+    object-fit: contain;
+}
+.Header_icon{
+    padding: 20px;
+}
+.MuiIconButton-root{
+    padding: 2vw!important;
+    color: greenyellow !important; 
+}
+
+
+/* chat screen */
+
+.chatscreen{
+    background-color: #ffffff;
+    height: 86vh;
+}
+.chatcustom{
+border-radius: 90%;
+width:60px;
+height: 60px;
+margin-right: 20px;
+}
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 50px;
+    border-bottom: 1px solid #fafafa;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.chat_details{
+    flex: 1
+}
+
+
+
+/* chat screen------------------------------- */
+.Chatscreen_message
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}.Chatscreen_text{
+    margin-left: 10px;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 20px;
+    color:black;
+}
+.Chatscreen_textUser{
+    margin-left: auto ;
+    background-color: #29b3cd;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.chatscreen_top_text{
+    text-align: center;
+    display: flex;
+    justify-content: center
+    ; color:#fe91ca;
+}
+
+
+.chatscreen_input{
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    border-top: 1px solid lightblue;
+    margin-top: 10px;
+
+}
+.chatscreen_inputField{
+    flex: 1;
+    padding: 10px;
+}
+.chatscreen_input_button{
+   border: none;
+   margin-right: 20px;
+   background-color: lightgray; 
+}
